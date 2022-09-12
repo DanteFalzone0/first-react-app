@@ -34,9 +34,9 @@ function calculateWeight(earthWeight: number, world: string): number {
     case "Earth":
       return earthWeight;
     case "the Moon":
-      return earthWeight * 0.166;
+      return earthWeight * 0.17;
     case "Mars":
-      return earthWeight * 0.376;
+      return earthWeight * 0.38;
     default:
       return NaN;
   }
